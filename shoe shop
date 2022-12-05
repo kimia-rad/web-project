@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scooby Doo's Shop</title>
+    <style>
+      body {
+        background-color: bisque;
+        font-family: Verdana, Arial, sans-serif;
+      }
+      fieldset {
+        margin: auto;
+        height: 90%;
+        border-color: darkorchid;
+        border-style: dotted;
+      }
+      #wrapper {
+        margin: auto;
+        margin-right: auto;
+        margin-left: auto;
+        width: 98%;
+        padding: 5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+      #name {
+        color: darkorchid;
+        font-size: 60px;
+      }
+      header {
+        text-align: center;
+        color: gold;
+        font-size: 20px;
+        text-shadow: 20px;
+        margin-left: 12%;
+        padding-top: 30px;
+        background-image: url(./img/header.jpg);
+        height: 150px;
+        width: 78%;
+        text-shadow: 3px 0 black, 0 3px black, 3px 0 black, 0 3px black;
+        background-color: skyblue;
+      }
+      #menu {
+        border-width: 5px;
+        border-style: groove;
+        margin: auto;
+        width: 78%;
+
+      
+      }
+      main {
+        width: 78%;
+        text-align: center;
+        margin-left: 12%;
+        background-color: cornflowerblue;
+        height: auto;
+      }
+
+      footer {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <fieldset>
+        <header>
+          <m id="name">Scooby Doo's Shop</m> <br />
+          adopet your favorite shoe and love it forever
+        </header>
+
+        <fieldset id="menu">
+          Men's shoes Women's shoesKid's shoes
+          
+          
+        </fieldset>
+
+        <main>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem
+            adipisci impedit atque at, quo repellendus quae saepe! Impedit
+            nesciunt sed, facere aspernatur dolor eligendi, quia molestias saepe
+            voluptas fugit nobis?
+          </p>
+        </main>
+
+        <footer>&copy; Kimia abbas rad.</footer>
+      </fieldset>
+    </div>
+  </body>
+</html>
